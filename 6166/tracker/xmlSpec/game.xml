@@ -1,0 +1,379 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<numberOfStars>5</numberOfStars>
+
+<maxFrames>300</maxFrames>
+<username>rundong</username>
+
+<MyHUD>
+<message>Press G to play </message>
+<file>assets/hudback.png</file>
+<factor>0</factor>
+<transparency>false</transparency>
+</MyHUD>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2500</width>
+  <height>900</height>
+</world>
+
+<HUDbackbg>
+  <file>assets/GoButtonbig.png</file>
+  <factor>0</factor>
+  <transparency>false</transparency>
+</HUDbackbg>
+<HUDbacklg>
+  <file>assets/GoButtonlittle.png</file>
+  <factor>0</factor>
+  <transparency>false</transparency>
+</HUDbacklg>
+
+<HUDback>
+  <file>assets/colorhudback.jpg</file>
+  <factor>0</factor>
+  <transparency>false</transparency>
+</HUDback>
+
+<back>
+  <file>assets/nightmoon.jpg</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<backfinish>
+  <file>assets/finalback.jpg</file>
+  <factor>0</factor>
+  <transparency>false</transparency>
+</backfinish>
+
+<back0>
+  <file>assets/qinghuaframe.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back0>
+<back1>
+  <file>assets/back1.jpg</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</back1>
+
+<back2>
+  <file>assets/back2.jpg</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</back2>
+
+<backgrass>
+  <file>assets/grass.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</backgrass>
+
+<backriver>
+  <file>assets/river.png</file>
+  <factor>3</factor>
+  <transparency>true</transparency>
+</backriver>
+<backsnowmountain>
+  <file>assets/mountain.png</file>
+  <factor>4</factor>
+  <transparency>true</transparency>
+</backsnowmountain>
+
+<backsky>
+  <file>assets/sky.png</file>
+  <factor>10</factor>
+  <transparency>true</transparency>
+</backsky>
+
+
+<backgrassBW>
+  <file>assets/grassBW.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</backgrassBW>
+
+<backriverBW>
+  <file>assets/riverBW.png</file>
+  <factor>3</factor>
+  <transparency>true</transparency>
+</backriverBW>
+
+<backsnowmountainBW>
+  <file>assets/mountainBW.png</file>
+  <factor>4</factor>
+  <transparency>true</transparency>
+</backsnowmountainBW>
+<backskyBW>
+  <file>assets/skyBW.png</file>
+  <factor>10</factor>
+  <transparency>true</transparency>
+</backskyBW>
+
+
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<wildgooseR>
+  <file>assets/goose-flapR5014.jpg</file>
+  <startLoc x="50" y="140"/>
+  <frames>14</frames>
+  <imageWidth>55</imageWidth>
+  <imageHeight>50</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>100</speedX>
+  <speedY>50</speedY>
+  <safeDistance>75</safeDistance>
+  <transparency>true</transparency>
+</wildgooseR>
+
+<wildgooseL>
+  <file>assets/goose-flapL5014.jpg</file>
+  <startLoc x="50" y="140"/>
+  <frames>14</frames>
+  <imageWidth>55</imageWidth>
+  <imageHeight>50</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>100</speedX>
+  <speedY>50</speedY>
+  <transparency>true</transparency>
+</wildgooseL>
+
+<ButterflyR>
+  <file>assets/butterfly10R.png</file>
+  <bullet>dashbutterfly</bullet>
+  <startLoc x="50" y="140"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <safeDistance>75</safeDistance>
+  <transparency>true</transparency>
+</ButterflyR>
+
+<dashbutterfly>
+  <file>assets/butterfly10R.png</file>
+  <interval>35</interval>
+  <distance>350</distance>
+  <startLoc x="50" y="140"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>25</frameInterval>
+  <minSpeedX>700</minSpeedX>
+  <speedX>500</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+</dashbutterfly>
+
+<dashbutterflyL>
+  <file>assets/butterfly10L.png</file>
+  <interval>35</interval>
+  <distance>350</distance>
+  <startLoc x="50" y="140"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>25</frameInterval>
+  <minSpeedX>700</minSpeedX>
+  <speedX>500</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+</dashbutterflyL>
+
+
+<ButterflyRtwinkle>
+  <file>assets/butterfly10R.png</file>
+  <startLoc x="500" y="800"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>150</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</ButterflyRtwinkle>
+
+<ButterflyR0>
+  <file>assets/butterfly10R.png</file>
+  <startLoc x="700" y="500"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>1</speedX>
+  <speedY>1</speedY>
+  <transparency>true</transparency>
+</ButterflyR0>
+
+<ButterflyR1>
+  <file>assets/butterfly10R.png</file>
+  <startLoc x="710" y="310"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</ButterflyR1>
+
+<ButterflyR2>
+  <file>assets/butterfly10R.png</file>
+  <startLoc x="720" y="320"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</ButterflyR2>
+
+<ButterflyL>
+  <file>assets/butterfly10L.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>10</frames>
+  <imageWidth>71</imageWidth>
+  <imageHeight>65</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</ButterflyL>
+
+<SpinningStar>
+  <file>assets/spinstar.png</file>
+  <startLoc x="500" y="50"/>
+  <frames>4</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <safeDistance>75</safeDistance>
+  <transparency>true</transparency>
+</SpinningStar>
+
+<SpinningStargreen>
+  <file>assets/greenstar70.png</file>
+  <startLoc x="650" y="750"/>
+  <frames>22</frames>
+
+  <frameInterval>30</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>250</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</SpinningStargreen>
+
+<SpinningStarblue>
+  <file>assets/bluestar70.png</file>
+  <startLoc x="990" y="15"/>
+  <frames>16</frames>
+
+  <frameInterval>30</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>130</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</SpinningStarblue>
+
+<SpinningStaryellow>
+  <file>assets/yellowstar70.png</file>
+  <startLoc x="600" y="750"/>
+  <frames>16</frames>
+
+  <frameInterval>30</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>130</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>130</distance>
+  </chunk>
+</SpinningStaryellow>
+
+
+
+<SpinningStarpurple>
+  <file>assets/purplestar70.png</file>
+  <startLoc x="210" y="650"/>
+  <frames>19</frames>
+
+  <frameInterval>30</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>130</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</SpinningStarpurple>
+
+<SpinningStarrainbow>
+  <file>assets/rainbowstar70.png</file>
+  <startLoc x="370" y="450"/>
+  <frames>8</frames>
+
+  <frameInterval>30</frameInterval>
+  <speedX>100</speedX>
+  <speedY>100</speedY>
+  <safeDistance>250</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</SpinningStarrainbow>
+
+<YellowStar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="400" y="140"/>
+  <speedX>299</speedX>
+  <speedY>299</speedY>
+  <safeDistance>175</safeDistance>
+  <transparency>false</transparency>
+</YellowStar>
+
+<ship>
+  <file>assets/ship.png</file>
+  <startLoc x="227" y="700"/>
+  <speedX>30</speedX>
+  <speedY>30</speedY>
+  <transparency>true</transparency>
+</ship>
+
+</GameData>

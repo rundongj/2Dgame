@@ -1,0 +1,29 @@
+Name:Rundong Jiang
+
+Course:2D game 6160
+
+Clemson Email Address:rundonj@g.clemson.edu
+
+Project no:6
+
+Project due date:13/12/2017
+
+Project description:A playable Game and reaches a conclusion
+
+This is a game you can play as butterfly fairy. You need catch enougth elves to make the color back to the world. You can hit the space, to make player dash(very likely to shoot). 
+
+I designed 4 levels for each level the elves have different escape strategies.
+ For level 1 they escapes normally. And I designed an special effects for the back level 1.
+ For level 2 they can acclerate, and when they accelerate there will be special shadow after them.
+ For level 3 they can randomly jump. This level is designed for the "dash" .
+ And the leve 4 is the hardest the sprites can both acclerate and jump. To catch them you may need some luck or patience.
+
+During the playing, the left up will show how much sprite left, and the right down will show the level message and hint.
+
+ when you finish each level, partical of back ground will recover it's color. When you catch them all, The game will reach the end, then there will be a very beautiful fairy picture show up as the end of the game. You can press R to replay. Press F1 to show the HUD.
+
+
+All my picture comes from google image. The sund comes from soundbible
+
+
+
